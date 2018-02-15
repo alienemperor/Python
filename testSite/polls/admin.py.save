@@ -1,0 +1,40 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.contrib import admin
+
+# Register your models here.
+
+    valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:15:5d:1f:77:1c brd ff:ff:ff:ff:ff:ff
+    inet 172.18.28.209/22 brd 172.18.31.255 scope global dynamic eth0
+       valid_lft 595370sec preferred_lft 595370sec
+    inet6 fe80::215:5dff:fe1f:771c/64 scope link
+       valid_lft forever preferred_lft forever
+3: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:15:5d:1f:77:1d brd ff:ff:ff:ff:ff:ff
+    inet 192.168.100.50/24 brd 192.168.100.255 scope global eth1
+       valid_lft forever preferred_lft forever
+    inet6 fe80::215:5dff:fe1f:771d/64 scope link
+       valid_lft forever preferred_lft forever
+joshua@ubuntuPython:~/testSite$ ls
+db.sqlite3  manage.py  polls  testSite
+joshua@ubuntuPython:~/testSite$ cd testSite/
+joshua@ubuntuPython:~/testSite/testSite$ ls
+__init__.py  __init__.pyc  __pycache__  settings.py  settings.pyc  urls.py  urls.pyc  wsgi.py
+joshua@ubuntuPython:~/testSite/testSite$ cd ..
+joshua@ubuntuPython:~/testSite$ nano polls/admin.py
+  GNU nano 2.8.6                                                                                               File: polls/admin.py                                                                                                Modified
+
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.contrib import admin
+
+# Register your models here.
+
+
+
